@@ -130,7 +130,7 @@ h1, h2, h4 {
 
 #reportaje-inedito {
     position: absolute;
-    top: 255px;
+    top: 100px;
     height: 100px;
     width: 200px;
     left: auto;
@@ -145,6 +145,27 @@ h1, h2, h4 {
     position: absolute;
     bottom: 15px;
 }
+
+#integrantes {
+    width: 150px;
+    position: absolute;
+    left: auto;
+    top: 220px;
+    right: 55px;
+    text-align: end;
+}
+
+#integrantes h2 {
+    position: absolute;
+    left: auto;
+    right: 0;
+}
+
+#nombres {
+    position: absolute;
+    top: 36px;
+}
+
 
 #filtro {
     background: linear-gradient(0deg, rgba(18,18,18,0.2) 0%, rgba(18,18,18,0) 100%);
