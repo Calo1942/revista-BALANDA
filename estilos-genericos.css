@@ -55,7 +55,7 @@ body {
     body {
         flex-direction: column;
         height: auto;
-        zoom: 68%;
+        zoom: 62%;
     }
 
     .mascara-pagina {
@@ -83,12 +83,12 @@ body {
 
 .botones {
     background-color: #666;
-    width: 40px;
+    width: 50px;
     height: 200px;
     position: absolute;
     visibility: visible;
 
-    z-index: 1;
+    z-index: 100;
 }
 
 #boton-izq {
