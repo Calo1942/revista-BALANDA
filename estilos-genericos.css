@@ -44,18 +44,30 @@ body {
     position: relative;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 2200px) {
+    .mascara-pagina {
+        width: 1200px;
+        height: 842px;
+    }
+}
+
+@media (max-width: 1200px) {
     body {
         flex-direction: column;
-        min-height: 155vh;
-        zoom: 62%;
+        height: auto;
+        zoom: 68%;
+    }
+
+    .mascara-pagina {
+        margin: 20px 0;
+        height: 1660px;
+        width: 600px;
+        flex-direction: column;
     }
 }
 
 .mascara-pagina {
     position: relative;
-    width: 1200px;
-    height: 842px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -71,10 +83,12 @@ body {
 
 .botones {
     background-color: #666;
-    width: 100px;
-    height: 400px;
+    width: 40px;
+    height: 200px;
     position: absolute;
     visibility: visible;
+
+    z-index: 1;
 }
 
 #boton-izq {
