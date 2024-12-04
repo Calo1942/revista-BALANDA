@@ -1,0 +1,279 @@
+* {
+    font-family: 'noto sans';
+}
+
+.borde-gradiente {
+    height: 10px;
+    background: linear-gradient(90deg, rgb(247, 232, 170) 0%, rgb(192, 132, 39) 25%, rgb(247, 232, 170) 50%, rgb(192, 132, 39) 75%, rgb(247, 232, 170) 100%);
+    border: none;
+    width: 86%;
+    position: absolute;
+    left: 40px;
+}
+
+.borde-top {
+    top: 40px;
+}
+
+.nubes {
+    position: absolute;
+    bottom: 0;
+    width: 140%;
+    left: -100px;
+}
+
+.pagina {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedor-texto {
+    height: 600px;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-texto .siguiente-linea {
+    font-size: 13px;
+    position: absolute;
+}
+
+#img-comando-base {
+    width: 100%;
+    margin-top: 60px;
+}
+
+.contenedor-texto h5 {
+    font-size: 9px;
+    text-align: center;
+}
+
+.contenedor-texto p {
+    margin: 30px 0;
+    font-size: 11px;
+    text-align: justify;
+    line-height: 18px;
+}
+
+.pagina > h1 {
+    position: absolute;
+    bottom: 60px;
+    left: 50px;
+}
+
+#nubes-top {
+    top: 0;
+    rotate: 180deg;
+}
+
+.borde-bot {
+    top: none;
+    bottom: 40px;
+}
+
+#pagina-que-es .contenedor-izq {
+    margin-top: 200px;
+}
+
+#img-insignia {
+    width: 160px;
+    margin-bottom: 20px;
+}
+
+#img-vicente {
+    width: 200px;
+}
+
+/* Pagina 3 */
+
+#img-teniente {
+    margin-top: 160px;
+    width: 120%;
+}
+
+.cielo-azul {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(0deg, rgba(66,161,224,1) 20%, rgba(18,18,18,0) 100%);
+    bottom: 0;
+}
+
+#avion-zukhoi-abajo {
+    position: absolute;
+    width: 450px;
+    bottom: 30px;
+    left: 100px;
+    animation: vuelo 7s ease-in-out infinite;
+}
+
+#avion-k8-arriba {
+    position: absolute;
+    top: 50px;
+    width: 500px;
+    animation: vuelo 7s ease-in-out infinite;
+}
+
+/* pagina 4 */
+#pagina-pionera .contenedor-texto {
+    margin-top: 300px;
+}
+
+.contenedor-texto > * {
+    width: 100%;
+}
+
+#pagina-pionera .nubes,
+#pagina-propuesta2 .nubes {
+    transform: scalex(-1);
+    left: -140px;
+}
+
+#pagina-pionera .balanda-dot-com-add,
+#pagina-pionera .balanda-dot-com-add span,
+#pagina-que-es .balanda-dot-com-add,
+#pagina-que-es .balanda-dot-com-add span,
+.propuesta .balanda-dot-com-add,
+.propuesta .balanda-dot-com-add span,
+#pagina-departamentos-2 .balanda-dot-com-add,
+#pagina-departamentos-2 .balanda-dot-com-add span,
+#pagina-tapa .balanda-dot-com-add, 
+#pagina-tapa .balanda-dot-com-add span{
+    color: black;
+    font-family: 'Merriweather';
+}
+
+#pagina-que-es .balanda-dot-com-add,
+#pagina-que-es .balanda-dot-com-add span,
+#pagina-departamentos-2 .balanda-dot-com-add,
+#pagina-departamentos-2 .balanda-dot-com-add span,
+#pagina-tapa .balanda-dot-com-add, 
+#pagina-tapa .balanda-dot-com-add span {
+    color: white;
+}
+.propuesta .balanda-dot-com-add,
+#pagina-pionera .balanda-dot-com-add {
+    position: absolute;
+    left: auto;
+    right: 50px;
+    bottom: 40px;
+}
+
+
+/* pagina-propuesta */
+
+#pagina-propuesta1,
+#pagina-propuesta2 {
+    background-color: #359BDC;
+}
+
+.propuesta * {
+    color: black;
+    font-family: 'noto sans';
+}
+
+.propuesta hr {
+    background: white;
+}
+
+.k8-bot {
+    position: absolute;
+    bottom: 50px;
+}
+
+.propuesta #avion-k8-1-abajo {
+    width: 380px;
+    right: 60px;
+    animation: vuelo 5s ease-in-out infinite;
+}
+
+.propuesta #avion-k8-2-abajo {
+    width: 300px;
+    bottom: 180px;
+    right: 220px;
+    animation: vuelo 6s ease-in-out infinite;
+}
+
+#pagina-propuesta1 .contenedor-der {
+    margin-top: 250px;
+}
+
+#avion-zukhoi-va-bot {
+    position: absolute;
+    width: 500px;
+    bottom: 130px;
+    left: 30px;
+    animation: vuelo 8s ease-in-out infinite;
+}
+
+/* departamentos */
+
+#pagina-departamentos-2 .nubes {
+    transform: scaleX(-1);
+}
+
+#pagina-departamentos .contenedor-texto,
+#pagina-departamentos-2 .contenedor-texto {
+    margin-top: 150px;
+}
+
+#pagina-departamentos .contenedor-izq {
+    margin-top: 250px;
+}
+
+#img-k-8-1 {
+    width: 100%;
+    margin: 30px 0;
+}
+
+#img-grifos {
+    width: 200px;
+    margin-top: 20px;
+}
+
+#pagina-departamentos-2 .balanda-dot-com-add {
+    left: auto;
+    right: 50px;
+}
+
+#pagina-departamentos-2 .contenedor-izq {
+    margin-top: 250px;
+}
+
+/*  Tapa */
+
+#pista {
+    width: 100%;
+    position: absolute;
+    bottom: -100px;
+}
+
+#filtro-negro {
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(0deg, rgba(66,161,224,0) 10%, rgba(18,18,18,1) 80%);
+    top: 140px;
+}
+
+#zukhoi-tapa {
+    position: absolute;
+    width: 650px;
+    top: 70px;
+}
+
+#caja {
+    position: absolute;
+    width: 250px;
+    background-color: #121212;
+    padding: 20px;
+    bottom: 180px;
+}
+
+#caja p {
+    text-align: center;
+    font-size: 12px;
+}

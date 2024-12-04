@@ -1,0 +1,345 @@
+
+
+#portada {
+    background: url('src/img/cielo-azul-fondo.webp') center center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marco {
+    width: calc(100% - 80px);
+    height: calc(100% - 80px);
+}
+
+#marco-blanco {
+    border: 10px solid #fff;
+}
+
+#img-sukhoi-portada {
+    background: url('src/img/zukhoi-mk30-img1.png') center center/cover no-repeat;
+    height: 300px;
+    width: 725px;
+    position: absolute;
+    top: 150px;
+    right: -28px;
+    animation: vuelo 7s ease-in-out infinite;
+    
+}
+
+h1, h2, h4 {
+    position: absolute;
+    top: 0;
+}
+
+#titulo-revista {
+    font-size: 5.8rem;
+    top: 50px;
+    left: 50px;
+    letter-spacing: 4px;
+}
+
+#subtitulo-revista {
+    letter-spacing: 15px;
+    left: 95px;
+    top: 158px;
+    font-size: 14px;
+}
+
+.titulo-portada {
+    font-family: 'Merriweather';
+    font-weight: bold;
+}
+
+.reportaje h2 {
+    font-family: 'Namdhinggo';
+}
+
+.reportaje h3 {
+    font-family: 'noto sans';
+    font-size: 16px;
+}
+
+.texto-negro {
+    color: #000;
+    font-size: 2.3rem;
+}
+
+#titulares-portada {
+    position: absolute;
+    bottom: 18px;
+    z-index: 0;
+    width: 100%;
+    height: 48%;
+}
+
+.reportaje {
+    left: 55px;
+}
+
+.reportaje:hover {
+    cursor: pointer;    
+}
+
+.reportaje:hover h2 {
+    text-decoration: underline;
+}
+
+.reportaje-titulo {
+    width: 300px;
+}
+
+#reportaje-especial {
+    top: 10px;
+    left: 55px;
+    position: absolute;
+    width: 50%;
+    height: 125px;
+}
+
+.subtitulo,
+.reportaje-titulo {
+    font-size: 18px;
+}
+
+#reportaje-especial-desc {
+    top: 50px;
+    position: absolute;
+    width: 250px;
+}
+
+#reportaje-cambio {
+    position: absolute;
+    top: 140px;
+    height: 120px;
+    width: 210px;
+}
+
+#cambio {
+    position: absolute;
+    top: 30px;
+    width: 200px;
+}
+
+#reportaje-propuesta {
+    position: absolute;
+    top: 270px;
+    height: 100px;
+    width: 210px;
+}
+
+#reportaje-inedito {
+    position: absolute;
+    top: 255px;
+    height: 100px;
+    width: 200px;
+    left: auto;
+    right: 55px;
+
+    display: flex;
+    justify-content: end;
+    text-align: end;
+}
+
+#departamentos {
+    position: absolute;
+    bottom: 15px;
+}
+
+#filtro {
+    background: linear-gradient(0deg, rgba(18,18,18,0.2) 0%, rgba(18,18,18,0) 100%);
+    width: 87%;
+    height: 390px;
+    position: absolute;
+    left: 40px;
+    bottom: 39px;
+}
+
+
+/* Pagina Indice */
+
+
+#pagina-indice {
+    background-color: #fff;
+}
+
+#pagina-indice * {
+    color: #000;
+}
+
+#marco-negro {
+    border: 10px solid #000;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+#tapar-marco {
+    position: absolute;
+    bottom: 135px;
+    background-color: #fff;
+    width: 100%;
+    height: 590px;
+}
+
+#tapar-marco-top {
+    position: absolute;
+    top: 0;
+    left: 40px;
+    width: 90%;
+    height: 150px;
+    background-color: #fff;
+}
+.balanda-dot-com,
+.titulo-pagina {
+    font-family: 'Merriweather';
+    font-size: 2.2rem;
+}
+
+.titulo-pagina {
+    position: absolute;
+    top: 40px;
+    left: 50px;
+}
+
+.titulo-pagina span {
+    font-size: 13px;
+    position: absolute;
+}
+
+.balanda-dot-com {
+    
+    position: absolute;
+    right: 55px;
+    top: 750px;
+}
+
+.balanda-dot-com span {
+    font-size: 15px;
+}
+
+#avion-indice {
+    position: absolute;
+    top: 140px;
+    left: -25px;
+    width: 700px;
+
+    animation: vuelo 7s ease-in-out infinite;
+}
+
+#linea-contenido {
+    width: auto;
+    height: auto;
+}
+
+.lineas-horizontales,
+#linea-vertical {
+    background-color: #000;
+    border-radius: 10px;
+}
+
+#linea-vertical {
+    width: 10px;
+    height: 650px;
+    position: absolute;
+    left: 290px;
+    top: 50px;
+}
+
+.lineas-horizontales {
+    height: 10px;
+    width: 60px;
+    position: absolute;
+    top: 85px;
+}
+
+.derecha {
+    left: 290px;
+}
+
+.izquierda {
+    left: 240px;
+}
+
+#linea-hori-2 {
+    position: absolute;
+    top: 170px;
+}
+
+#linea-hori-3 {
+    position: absolute;
+    top: 250px;
+}
+
+#linea-hori-4 {
+    position: absolute;
+    top: 620px;
+}
+
+#linea-hori-5 {
+    position: absolute;
+    top: 550px;
+}
+
+#linea-hori-6 {
+    position: absolute;
+    top: 450px;
+}
+
+/* Titulos */
+
+#titulos-indice {
+    position: relative;
+}
+
+#titulos-indice > * {
+    width: 150px;
+    font-size: 0.7rem;
+    font-family: 'Merriweather';
+    letter-spacing: 1.5px;
+}
+
+.textos-indice {
+    position: absolute;
+}
+
+#titulos-indice h4:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#titulos-indice .derecha {
+    position: absolute;
+    left: 365px;
+}
+
+#titulos-indice .izquierda {
+    position: absolute;
+    left: auto;
+    right: 370px;
+    text-align: end;
+}
+
+#que-es-indice {
+    top: 70px;
+}
+
+#cambio-indice {
+    top: 150px;
+}
+
+#primera-indice {
+    top: 230px;
+}
+
+#propuesta-indice {
+    top: 444px;
+}
+
+#problemas-indice {
+    top: 535px;
+}
+
+#departamentos-indice {
+    top: 610px;
+}
